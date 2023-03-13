@@ -1,0 +1,28 @@
+{
+  "name": "api-node-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardokegel/api-node-with-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardokegel/api-node-with-jest/issues"
+  },
+  "homepage": "https://github.com/leonardokegel/api-node-with-jest#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongo": "^0.1.0"
+    
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
