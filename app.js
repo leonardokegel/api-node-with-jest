@@ -70,8 +70,6 @@ app.put('/users/:id', async (req, res) => {
     const repository = await app.get('container').getUserRepository();
     const user = await repository.update(req.params.id, req.body);
 
-    console.log(user)
-
     if (!user) {
         res.status(404).json({
             error: 'User not found',
